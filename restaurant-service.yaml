@@ -1,0 +1,19 @@
+server:
+  port: 5052
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  info:
+    env:
+      enabled: true
+
+
+eureka:
+  client:
+    register-with-eureka: true   # register this service
+    fetch-registry: true         # fetch other services
+    service-url:
+      defaultZone: http://localhost:8761/eureka

@@ -1,0 +1,8 @@
+server:
+  port: 9094
+
+info:
+  app:
+    name: "Food Service"
+    description: "This Service is Ready to use Prod Environment"
+    version: "1.0.0V Prod"

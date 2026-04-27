@@ -4,5 +4,5 @@ server:
 info:
   app:
     name: "Food Service"
-    description: "This is Under the Development Environment"
-    version: "1.0.0V Dev"
+    description: "This is Under the Development Environment ................................."
+    version: "1.0.0V Dev Git Version................................"
